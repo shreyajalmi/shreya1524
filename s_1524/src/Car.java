@@ -5,6 +5,7 @@ int data;
 	public Car(int IntCapacity) {
 		// TODO Auto-generated method stub
 this.capacity=IntCapacity;
+System.out.println("Capacity:"+capacity);
 	}
 	public int getCapacity() {
 		return capacity;

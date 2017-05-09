@@ -14,7 +14,7 @@ public class testCar {
 	@Test
 	public void test() {
 		CarMethod.getEngineCapacity(100);
-		assertEquals(300,CarMethod.getCapacity());
+		assertEquals(200,CarMethod.getCapacity());
 	}
 
 }
