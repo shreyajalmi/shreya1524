@@ -6,11 +6,11 @@ int data;
 		// TODO Auto-generated method stub
 this.capacity=IntCapacity;
 	}
+	public int getCapacity() {
+		return capacity;
+	}
 	public void getEngineCapacity(int add)
 	{
 		capacity=capacity+add;
-	}
-	public int getCapacity() {
-		return capacity;
 	}
 }
